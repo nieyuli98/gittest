@@ -19,3 +19,9 @@ git status	 查看暂存区状态
 git add 文件名	把文件添加到暂存区
 
 ![image-20240214204848627](./README-img/image-20240214204848627.png)
+
+git add *	git支持通配符
+
+git commit -m 描述	
+
+示例：git commit -m 提交了文件
