@@ -25,3 +25,13 @@ git add *	git支持通配符
 git commit -m 描述	
 
 示例：git commit -m 提交了文件
+
+--------
+
+总结：
+
+常用的就是下面几步：
+
+![image-20240214210306390](./README-img/image-20240214210306390.png)
+
+如果项目文件已经commit过，如果我们误删除了文件，可以使用git restore恢复。
