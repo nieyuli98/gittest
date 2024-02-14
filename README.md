@@ -44,14 +44,17 @@ git restore 文件名
 
 这个时候我们可以使用git log --oneline命令查看之前的版本号，然后再使用git reset --hard 之前的版本号来恢复。
 
-![image-20240214211332041](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240214211332041.png)
+![](./README-img/image-20240214211332041-1707917734603-1.png)
 
 
 
 或者，通过git revert 自己想要的版本号，来恢复
 
-![image-20240214211733002](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240214211733002.png)
+![image-20240214211733002](./README-img/image-20240214211733002-1707917743350-3.png)
 
 最后，使用git push推送的原创仓库。
 
 ![image-20240214212447736](./README-img/image-20240214212447736.png)
+
+
+
