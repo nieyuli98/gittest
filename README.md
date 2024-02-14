@@ -83,21 +83,18 @@ Git 是一款分布式版本控制系统，用于跟踪代码的变化并协同�
 13. **查看远程仓库信息：**
 
     ```
-    Copy code
     git remote -v
     ```
 
 14. **添加远程仓库：**
 
     ```
-    phpCopy code
     git remote add <远程仓库名> <仓库URL>
     ```
 
 15. **从远程仓库拉取指定分支：**
 
     ```
-    phpCopy code
     git fetch <远程仓库名> <分支名>
     ```
 
