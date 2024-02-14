@@ -11,84 +11,72 @@ Git 是一款分布式版本控制系统，用于跟踪代码的变化并协同�
 1. **初始化一个仓库：**
 
    ```
-   csharpCopy code
    git init
    ```
 
 2. **克隆仓库：**
 
    ```
-   bashCopy code
    git clone <仓库URL>
    ```
 
 3. **添加文件到暂存区：**
 
    ```
-   csharpCopy code
    git add <文件名>
    ```
 
 4. **提交变更到本地仓库：**
 
    ```
-   sqlCopy code
    git commit -m "提交说明"
    ```
 
 5. **查看仓库状态：**
 
    ```
-   luaCopy code
    git status
    ```
 
 6. **查看提交历史：**
 
    ```
-   bashCopy code
    git log
    ```
 
 7. **创建分支：**
 
    ```
-   phpCopy code
    git branch <分支名>
    ```
 
 8. **切换分支：**
 
    ```
-   phpCopy code
    git checkout <分支名>
    ```
 
 9. **创建并切换到新分支：**
 
    ```
-   cssCopy code
    git checkout -b <新分支名>
    ```
 
 10. **合并分支：**
 
     ```
-    phpCopy code
     git merge <要合并的分支名>
     ```
 
 11. **拉取远程仓库的变更：**
 
     ```
-    Copy code
     git pull
     ```
 
 12. **推送变更到远程仓库：**
 
     ```
-    perlCopy code
     git push
     ```
 
@@ -116,21 +104,18 @@ Git 是一款分布式版本控制系统，用于跟踪代码的变化并协同�
 16. **撤销工作区的修改：**
 
     ```
-    phpCopy code
     git restore <文件名>
     ```
 
 17. **撤销暂存区的修改：**
 
     ```
-    cssCopy code
     git restore --staged <文件名>
     ```
 
 18. **重命名文件：**
 
     ```
-    phpCopy code
     git mv <旧文件名> <新文件名>
     ```
 
